@@ -1,0 +1,28 @@
+local a=tostring(game.Players.LocalPlayer.Character);
+
+if a=="用户名"then
+_G.wuxin=true
+elseif a=="用户名"then
+_G.wuxin=true
+end
+if _G.wuxin==true then
+    local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证结果",
+    Text = a.."验证身份成功",
+    Duration = 5,
+})
+  wait(3) 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/wucan114514/ato/refs/heads/main/script"))()
+    else
+setclipboard("验证失败，请添加原作者qq或者定制人qq购买。原作者qq2134702438（没有任何小号），定制人qq2388920839")
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证失败",
+    Text = "你并没有白名单已复制文本加入找人购买白名单",
+    Duration = 10, --时间
+})
+end
+
