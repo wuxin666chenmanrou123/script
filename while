@@ -1,8 +1,8 @@
 local a=tostring(game.Players.LocalPlayer.Character);
 
-if a =="用户名"then
+if a =="gta5yyd"then
 _G.wuxin=true
-elseif a == "用户名" then
+elseif a == "ato_1380yo" then
 _G.wuxin=true
 elseif a == "用户名" then
 _G.wuxin=true
