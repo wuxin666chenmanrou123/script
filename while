@@ -8,7 +8,7 @@ elseif a == "qwermk47" then
 _G.wuxin=true
 elseif a == "8_5111" then
 _G.wuxin=true
-elseif a == "用户名" then
+elseif a == "sanren120" then
 _G.wuxin=true
 end
 if _G.wuxin==true then
