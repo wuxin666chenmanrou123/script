@@ -10,7 +10,7 @@ elseif a == "8_5111" then
 _G.wuxin=true
 elseif a == "sanren120" then
 _G.wuxin=true
-elseif a == "Reb18980" then
+elseif a == "" then
 _G.wuxin=true
 elseif a == "ftjysc" then
 _G.wuxin=true
