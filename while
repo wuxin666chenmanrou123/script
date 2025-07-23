@@ -14,6 +14,8 @@ elseif a == "" then
 _G.wuxin=true
 elseif a == "ftjysc" then
 _G.wuxin=true
+elseif a == "shiqisimu" then
+_G.wuxin=true
 end
 if _G.wuxin==true then
     local CoreGui = game:GetService("StarterGui")
